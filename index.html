@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shruti Subhadarshini Nayak - AI/ML Engineer | Full Stack Developer</title>
+    <link rel="stylesheet" href="style_updated.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader" class="preloader">
+        <div class="neural-network">
+            <div class="node"></div>
+            <div class="node"></div>
+            <div class="node"></div>
+            <div class="connection"></div>
+            <div class="connection"></div>
+        </div>
+        <div class="loading-text">Loading AI Portfolio...</div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-trail"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">SSN</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
+    <!-- Hero Section - Split Layout (Alex Johnson Style) -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <div class="particles"></div>
+            <div class="neural-bg"></div>
+        </div>
+        <div class="container">
+            <div class="hero-split">
+                <!-- Left Side: Text Content -->
+                <div class="hero-text">
+                    <div class="hero-text-content">
+                        <div class="hero-greeting">
+                            <span class="greeting-text">Hello, I'm</span>
+                        </div>
+                        <h1 class="hero-name">
+                            <span class="typing-text" id="typing-text"></span>
+                            <span class="cursor-blink">|</span>
+                        </h1>
+                        <div class="hero-title">
+                            <span id="hero-subtitle">AI/ML Engineer | Full Stack Developer</span>
+                        </div>
+                        <p class="hero-bio">
+                            I specialize in Artificial Intelligence and Machine Learning, with hands-on experience in
+                            deep learning and predictive modeling. Alongside AI, I also work with full-stack web
+                            development (MERN, Django, React) to build intelligent end-to-end solutions.
+                        </p>
+                        <div class="hero-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bhubaneswar, India</span>
+                        </div>
+                        <div class="hero-cta">
+                            <a href="#about" class="cta-button cta-primary">
+                                <span>Explore My Work</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#contact" class="cta-button cta-secondary">
+                                <span>Get In Touch</span>
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side: Visual Content -->
+                <div class="hero-visual">
+                    <div class="hero-visual-content">
+                        <div class="profile-container">
+                            <div class="profile-image">
+                                <div class="profile-glow"></div>
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                        </div>
+                        <div class="ai-elements">
+                            <div class="neural-network-display">
+                                <div class="neural-node" style="top: 20%; left: 20%;"></div>
+                                <div class="neural-node" style="top: 40%; left: 60%;"></div>
+                                <div class="neural-node" style="top: 70%; left: 30%;"></div>
+                                <div class="neural-node" style="top: 80%; left: 80%;"></div>
+                                <div class="neural-connection" data-start="1" data-end="2"></div>
+                                <div class="neural-connection" data-start="2" data-end="3"></div>
+                                <div class="neural-connection" data-start="3" data-end="4"></div>
+                            </div>
+                            <div class="floating-icons">
+                                <div class="floating-icon" style="animation-delay: 0s;">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <div class="floating-icon" style="animation-delay: 1s;">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                                <div class="floating-icon" style="animation-delay: 2s;">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <div class="floating-icon" style="animation-delay: 3s;">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-description">
+                        I specialize in Artificial Intelligence and Machine Learning, with hands-on experience in deep
+                        learning and predictive modeling. Alongside AI, I also work with full-stack web development
+                        (MERN, Django, React) to build intelligent end-to-end solutions.
+                    </p>
+                    <p class="about-passion">
+                        My passion is applying AI/ML to solve real-world challenges and creating impactful solutions
+                        that bridge technology and human needs.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-robot"></i>
+                            <span>AI/ML Expertise</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <span>Full Stack Development</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-brain"></i>
+                            <span>Problem solving</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <canvas id="about-lottie" width="300" height="300"></canvas>
+                    <script type="module">
+                        import { DotLottie } from "https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web/+esm";
+                        new DotLottie({
+                            autoplay: true,
+                            loop: true,
+                            canvas: document.getElementById("about-lottie"),
+                            src: "https://lottie.host/4db68bbd-31f6-4cd8-84eb-189de081159a/IGmMCqhzpt.lottie",
+                        });
+                    </script>
+                </div>
+
+                </script>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-categories">
+                <div class="skill-category" data-category="AI/ML">
+                    <h3 class="category-title">AI/ML</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="Machine Learning" data-level="90">
+                            <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                            <div class="skill-info">
+                                <span class="skill-name">Machine Learning</span>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" data-width="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Deep Learning" data-level="85">
+                            <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                            <div class="skill-info">
+                                <span class="skill-name">Deep Learning</span>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="TensorFlow" data-level="85">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <div class="skill-info">
+                                <span class="skill-name">TensorFlow</span>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Scikit-learn" data-level="90">
+                            <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                            <div class="skill-info">
+                                <span class="skill-name">Scikit-learn</span>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" data-width="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-category="Programming">
+                    <h3 class="category-title">Programming</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="Python" data-level="95">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" data-width="95"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Java" data-level="75">
+                            <div class="skill-icon"><i class="fab fa-java"></i></div>
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-category="Frontend">
+                    <h3 class="category-title">Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="React" data-level="75">
+                            <div class="skill-icon"><i class="fab fa-react"></i></div>
+                            <div class="skill-info">
+                                <span class="skill-name">React</span>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="MERN Stack" data-level="75">
+                            <div class="skill-icon"><i class="fas fa-layer-group"></i></div>
+                            <div class="skill-info">
+                                <span class="skill-name">MERN Stack</span>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-category="Backend">
+                    <h3 class="category-title">Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="Django" data-level="75">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <div class="skill-info">
+                                <span class="skill-name">Django</span>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Node.js" data-level="75">
+                            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js</span>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="AI/ML">AI/ML</button>
+                <button class="filter-btn" data-filter="Full Stack">Full Stack</button>
+                <button class="filter-btn" data-filter="Programming">Programming</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card featured" data-category="AI/ML">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-tree"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link coming-soon">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                                <a href="#" class="project-link coming-soon">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-badge">Featured</div>
+                        <h3 class="project-title">Wildlife Sentinel – AI Forest Surveillance</h3>
+                        <p class="project-description">Real-time monitoring system using camera feeds, sensors, and
+                            sound detection to track wildlife activity and prevent threats.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">Deep Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="AI/ML">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link coming-soon">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                                <a href="#" class="project-link coming-soon">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Smart Task Manager</h3>
+                        <p class="project-description">AI-powered task manager with urgency prediction using machine
+                            learning algorithms.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="AI/ML">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link coming-soon">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                                <a href="#" class="project-link coming-soon">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+                        <h3 class="project-title">Movie Recommendation System</h3>
+                        <p class="project-description">Personalized movie recommendation engine using collaborative
+                            filtering and TensorFlow-based models.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="Full Stack">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link coming-soon">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                                <a href="#" class="project-link coming-soon">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Backend Course System</h3>
+                        <p class="project-description">Platform backend where teachers can list and sell courses, and
+                            students can purchase them.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">MERN Stack</span>
+                            <span class="tech-tag">REST APIs</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="Programming">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link coming-soon">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                                <a href="#" class="project-link coming-soon">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">ATM Simulator – Java</h3>
+                        <p class="project-description">Console-based ATM simulation with withdrawal, deposit, balance
+                            check, and PIN update features.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">OOP</span>
+                            <span class="tech-tag">Console Application</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-index="0">
+                    <div class="timeline-marker">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">May 2024 – Jul 2024</div>
+                        <h3 class="timeline-title">Machine Learning Intern</h3>
+                        <h4 class="timeline-company">Infotact Solutions</h4>
+                        <p class="timeline-description">Built and deployed ML models for real-world use cases. Worked
+                            with decision trees, random forests, and neural networks for predictive tasks.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-index="1">
+                    <div class="timeline-marker">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Jul 2024 – Aug 2024</div>
+                        <h3 class="timeline-title">React Developer Intern</h3>
+                        <h4 class="timeline-company">Octanet Services Pvt Ltd</h4>
+                        <p class="timeline-description">Developed responsive web apps using React, improved UI/UX, and
+                            integrated APIs.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-index="2">
+                    <div class="timeline-marker">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Jun 2024 – Jul 2024</div>
+                        <h3 class="timeline-title">Django Developer Intern</h3>
+                        <h4 class="timeline-company">CTTC</h4>
+                        <p class="timeline-description">Created web applications and REST APIs using Django, handled
+                            database management.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-background">
+            <div class="contact-particles"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:shrutishubhadarshini11@gmail.com"
+                                class="contact-value">shrutishubhadarshini11@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-details">
+                            <span class="contact-label">Location</span>
+                            <span class="contact-value">Bhubaneswar, India</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/ShrutiS-cell" target="_blank" class="social-link"
+                            aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/shruti-s-nayak-a2857528a/" target="_blank"
+                            class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                    <div class="form-status" id="form-status"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
